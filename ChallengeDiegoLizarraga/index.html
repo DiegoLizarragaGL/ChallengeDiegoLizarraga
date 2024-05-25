@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Countdown</title>
+</head>
+<body>
+    <h1 class="title">My simple page - Web Development </h1>
+    <div class="mainImage">
+        <img src="images/gllogo.jpg" alt="Logo GlobalLogic"/>
+    </div>
+    <div class="countdownbox">
+        <div class="label">
+            <label for="countdown">Countdown</label>
+        </div>
+        <div class="time">
+            <div class="input">
+                <input type="datetime-local" id="countdown" name="countdown">
+                <button id="start"> Start countdown </button>
+                <button id="restart"> Reset </button>
+            </div>
+            
+            
+            <div class="timeleft">
+                <div class="timeblocks">
+                    <h2 id="days"></h2>
+                    <p>Days</p>
+                </div>
+                <div class="timeblocks">
+                    <h2 id="hours"></h2>
+                    <p>Hours</p>
+                </div>
+                <div class="timeblocks">
+                    <h2 id="minutes"></h2>
+                    <p>Minutes</p>
+                </div>
+                <div class="timeblocks">
+                    <h2 id="seconds"></h2>
+                    <p>Seconds</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+<script src="scripts.js"></script>
+</body>
+
+</html>

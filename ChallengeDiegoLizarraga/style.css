@@ -1,0 +1,75 @@
+h2{
+    margin-top: 10px ;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(127, 127, 128);
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(9deg, rgba(2,0,36,1) 0%, rgba(9,21,121,1) 2%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    text-align: center;
+}
+.mainImage{
+    display: block;
+    text-align: center;
+}
+.mainImage img{
+    width: 300px;
+    height: 300px;
+}
+
+.countdownbox{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.label{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(31, 30, 30);
+    color: rgb(212, 87, 4);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.time{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(212, 211, 211);
+    text-align: center;
+}
+.input{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 0;
+}
+#restart{
+    display: none;
+}
+.timeleft{
+}
+.timeblocks{
+    text-align: center;
+    display: inline-block;
+    width: 8vw;
+    background-color: aliceblue;
+    border-color:rgb(133, 132, 132);
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
